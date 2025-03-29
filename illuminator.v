@@ -26,7 +26,7 @@ module illuminator(
             if(reset) ps<=s0;
             else
                 begin
-                    if(temp==10'd99999)
+                    if(temp==17'd99999)
                         ps<=ns;
                     else
                         ps<=ps;
